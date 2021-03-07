@@ -61,10 +61,10 @@ spec:
         - containerPort:  80
           name:  igp-voting-app
         #volumeMounts:
-        - name: localtime
-          mountPath: /etc/localtime
-      volumes:
-        - name: localtime
-          hostPath:
-            path: /usr/share/zoneinfo/America/Vancouver
+        #- name: localtime
+        #  mountPath: /etc/localtime
+      #volumes:
+      #  - name: localtime
+      #    hostPath:
+      #      path: /usr/share/zoneinfo/America/Vancouver
       restartPolicy: Always
