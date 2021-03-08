@@ -10,6 +10,6 @@ spec:
   ports:
   - name: igp-voting-app
     port: 80
-    targetPort: 8888
+    targetPort:
     protocol: TCP
     nodePort: 30085
