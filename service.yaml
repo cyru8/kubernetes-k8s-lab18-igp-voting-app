@@ -10,6 +10,6 @@ spec:
   ports:
   - name: webapps
     port: 80
-    targetPort: 
+    targetPort: 8888
     protocol: TCP
     nodePort: 30085
