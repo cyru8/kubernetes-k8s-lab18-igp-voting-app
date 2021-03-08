@@ -8,7 +8,7 @@ spec:
     app: igp-voting-app
   type: NodePort
   ports:
-  - name: webapps
+  - name: igp-voting-app
     port: 80
     targetPort: 8888
     protocol: TCP
